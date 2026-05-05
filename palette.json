@@ -1,0 +1,55 @@
+{
+  "$comment": "Canonical palette for the Canopy terminal theme. All per-terminal config files derive from these values. Hex strings are uppercase, no #.",
+  "light": {
+    "background": "FBF8F1",
+    "foreground": "1F1A14",
+    "cursor":     "8A6A1F",
+    "selection":  "E5BE6E",
+    "ansi": {
+      "black":   "1F1A14",
+      "red":     "A8442B",
+      "green":   "3F6E54",
+      "yellow":  "B58A2C",
+      "blue":    "234231",
+      "magenta": "6B5F4F",
+      "cyan":    "8A9A82",
+      "white":   "E8E0CE"
+    },
+    "bright": {
+      "black":   "6B5F4F",
+      "red":     "8C3220",
+      "green":   "2E5740",
+      "yellow":  "D6A648",
+      "blue":    "1B3326",
+      "magenta": "A89B85",
+      "cyan":    "A6B39E",
+      "white":   "FBF8F1"
+    }
+  },
+  "dark": {
+    "background": "0E1812",
+    "foreground": "F0EADC",
+    "cursor":     "E5BE6E",
+    "selection":  "3F6E54",
+    "ansi": {
+      "black":   "0A120D",
+      "red":     "A8442B",
+      "green":   "6FA083",
+      "yellow":  "E5BE6E",
+      "blue":    "8A9A82",
+      "magenta": "A89B85",
+      "cyan":    "A6B39E",
+      "white":   "F0EADC"
+    },
+    "bright": {
+      "black":   "3B3329",
+      "red":     "C9583A",
+      "green":   "8FB89B",
+      "yellow":  "F1D69A",
+      "blue":    "A6B39E",
+      "magenta": "C2B8A2",
+      "cyan":    "C2CCBC",
+      "white":   "FBF8F1"
+    }
+  }
+}

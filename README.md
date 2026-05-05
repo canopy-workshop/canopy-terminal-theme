@@ -1,36 +1,50 @@
-# Canopy — ConEmu palette
+# Canopy — terminal theme
 
-A terminal palette pulled straight from the dark-mode tokens at canopyworkshop.com — oak greens, moss sage, dappled sun gold, brick-kiln red on a canopy-night background.
+A warm terminal palette pulled from the [Canopy Road Workshop](https://canopyworkshop.com) brand: limestone for the page, live-oak green for the ink, dappled sun gold for accents. Two variants — **Canopy Light** (canonical) and **Canopy Dark** — share the same accent gold so the pair feels like one theme.
+
+Canonical palette lives in [`palette.json`](./palette.json). Every per-terminal file in this repo derives from it.
+
+## What's in the box
+
+| Terminal / editor   | Path                                          |
+| ------------------- | --------------------------------------------- |
+| Windows Terminal    | [`windows-terminal/`](./windows-terminal)     |
+| ConEmu / Cmder      | [`canopy.xml`](./canopy.xml) (Dark)           |
+| Alacritty           | [`alacritty/`](./alacritty)                   |
+| WezTerm             | [`wezterm/canopy.lua`](./wezterm/canopy.lua)  |
+| iTerm2 / Terminal.app | _coming next — generate from `palette.json`_ |
+| VS Code             | _published separately to the Marketplace_     |
 
 ## Palette
 
-| ANSI                | Hex       | Token                |
-| ------------------- | --------- | -------------------- |
-| 0  black            | `#0E1812` | bg (canopy night)    |
-| 1  red              | `#A8442B` | alarm / kiln-500     |
-| 2  green            | `#3F6E54` | oak-500              |
-| 3  yellow           | `#B58A2C` | sun-600              |
-| 4  blue             | `#4A6B7A` | slate (derived)      |
-| 5  magenta          | `#8C5063` | muted rose (derived) |
-| 6  cyan             | `#6F8E84` | moss-teal (derived)  |
-| 7  white            | `#C2CCBC` | moss-300             |
-| 8  bright black     | `#3B3329` | loam-700             |
-| 9  bright red       | `#C25E45` | kiln (light)         |
-| 10 bright green     | `#6FA083` | brand                |
-| 11 bright yellow    | `#D6A648` | sun-500              |
-| 12 bright blue      | `#6F94A3` | slate (light)        |
-| 13 bright magenta   | `#B07585` | rose (light)         |
-| 14 bright cyan      | `#A6B39E` | moss-400             |
-| 15 bright white     | `#F0EADC` | fg (eggshell)        |
+### Canopy Light (canonical)
 
-Default text/background = bright white on black.
+| Role          | Hex       |
+| ------------- | --------- |
+| background    | `#FBF8F1` |
+| foreground    | `#1F1A14` |
+| cursor        | `#8A6A1F` |
+| selection     | `#E5BE6E` |
+| black / red   | `#1F1A14` / `#A8442B` |
+| green / yellow| `#3F6E54` / `#B58A2C` |
+| blue / magenta| `#234231` / `#6B5F4F` |
+| cyan / white  | `#8A9A82` / `#E8E0CE` |
 
-## Install in ConEmu
+### Canopy Dark
 
-1. Open ConEmu → **Settings** (`Win+Alt+P`).
-2. **Features → Colors**.
-3. Click the `[...]` button next to the Schemes dropdown → **Load from xml file** → select `canopy.xml`.
-4. Pick **Canopy** in the Schemes dropdown.
-5. **Save settings**.
+| Role          | Hex       |
+| ------------- | --------- |
+| background    | `#0E1812` |
+| foreground    | `#F0EADC` |
+| cursor        | `#E5BE6E` |
+| selection     | `#3F6E54` |
+| black / red   | `#0A120D` / `#A8442B` |
+| green / yellow| `#6FA083` / `#E5BE6E` |
+| blue / magenta| `#8A9A82` / `#A89B85` |
+| cyan / white  | `#A6B39E` / `#F0EADC` |
 
-If the import dialog isn't there in your build, you can paste the `<key name="Palette1">` block from `canopy.xml` directly into your `ConEmu.xml` under `Software\ConEmu\.Vanilla\Colors` (renumber `Palette1` to the next free slot).
+## Notes
+
+The light variant is the canonical one — it's what we use during pairing sessions and on the projector. The dark variant exists because some of us still prefer night work. Both pass WCAG AA contrast on text against background.
+
+Issues and palette suggestions welcome.

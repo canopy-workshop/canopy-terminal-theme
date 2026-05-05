@@ -1,0 +1,33 @@
+# Canopy Dark — Alacritty
+
+[colors.primary]
+background = "#0E1812"
+foreground = "#F0EADC"
+
+[colors.cursor]
+text   = "#0E1812"
+cursor = "#E5BE6E"
+
+[colors.selection]
+text       = "#F0EADC"
+background = "#3F6E54"
+
+[colors.normal]
+black   = "#0A120D"
+red     = "#A8442B"
+green   = "#6FA083"
+yellow  = "#E5BE6E"
+blue    = "#8A9A82"
+magenta = "#A89B85"
+cyan    = "#A6B39E"
+white   = "#F0EADC"
+
+[colors.bright]
+black   = "#3B3329"
+red     = "#C9583A"
+green   = "#8FB89B"
+yellow  = "#F1D69A"
+blue    = "#A6B39E"
+magenta = "#C2B8A2"
+cyan    = "#C2CCBC"
+white   = "#FBF8F1"

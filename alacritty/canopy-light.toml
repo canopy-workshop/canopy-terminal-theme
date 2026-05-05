@@ -1,0 +1,34 @@
+# Canopy Light — Alacritty
+# Drop into ~/.config/alacritty/alacritty.toml or import via `import = [...]`.
+
+[colors.primary]
+background = "#FBF8F1"
+foreground = "#1F1A14"
+
+[colors.cursor]
+text   = "#FBF8F1"
+cursor = "#8A6A1F"
+
+[colors.selection]
+text       = "#1F1A14"
+background = "#E5BE6E"
+
+[colors.normal]
+black   = "#1F1A14"
+red     = "#A8442B"
+green   = "#3F6E54"
+yellow  = "#B58A2C"
+blue    = "#234231"
+magenta = "#6B5F4F"
+cyan    = "#8A9A82"
+white   = "#E8E0CE"
+
+[colors.bright]
+black   = "#6B5F4F"
+red     = "#8C3220"
+green   = "#2E5740"
+yellow  = "#D6A648"
+blue    = "#1B3326"
+magenta = "#A89B85"
+cyan    = "#A6B39E"
+white   = "#FBF8F1"
