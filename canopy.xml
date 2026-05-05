@@ -36,7 +36,7 @@
           <value name="ColorTable05" type="dword" data="00859ba8"/> <!-- #A89B85 loam-light           (magenta)      -->
           <value name="ColorTable06" type="dword" data="006ebee5"/> <!-- #E5BE6E sun                  (yellow)       -->
           <value name="ColorTable07" type="dword" data="00dceaf0"/> <!-- #F0EADC eggshell             (white)        -->
-          <value name="ColorTable08" type="dword" data="0029333b"/> <!-- #3B3329 loam-700             (br black)     -->
+          <value name="ColorTable08" type="dword" data="00687e8a"/> <!-- #8A7E68 warm grey            (br black)     -->
           <value name="ColorTable09" type="dword" data="009eb3a6"/> <!-- #A6B39E moss-light           (br blue)      -->
           <value name="ColorTable10" type="dword" data="009bb88f"/> <!-- #8FB89B oak-light            (br green)     -->
           <value name="ColorTable11" type="dword" data="00bcccc2"/> <!-- #C2CCBC moss-300             (br cyan)      -->

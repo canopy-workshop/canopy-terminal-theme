@@ -42,6 +42,7 @@ Canonical palette lives in [`palette.json`](./palette.json). Every per-terminal 
 | green / yellow| `#6FA083` / `#E5BE6E` |
 | blue / magenta| `#8A9A82` / `#A89B85` |
 | cyan / white  | `#A6B39E` / `#F0EADC` |
+| br black (comments) | `#8A7E68` |
 
 ## Notes
 

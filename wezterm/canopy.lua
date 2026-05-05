@@ -28,7 +28,7 @@ M.schemes = {
     selection_bg     = '#3F6E54',
     selection_fg     = '#F0EADC',
     ansi   = { '#0A120D', '#A8442B', '#6FA083', '#E5BE6E', '#8A9A82', '#A89B85', '#A6B39E', '#F0EADC' },
-    brights = { '#3B3329', '#C9583A', '#8FB89B', '#F1D69A', '#A6B39E', '#C2B8A2', '#C2CCBC', '#FBF8F1' },
+    brights = { '#8A7E68', '#C9583A', '#8FB89B', '#F1D69A', '#A6B39E', '#C2B8A2', '#C2CCBC', '#FBF8F1' },
   },
 }
 
